@@ -44,7 +44,9 @@
   <Import Project="..\packages\MonoDevelop.Addins.0.2.3\build\net40\MonoDevelop.Addins.targets" Condition="Exists('..\packages\MonoDevelop.Addins.0.2.3\build\net40\MonoDevelop.Addins.targets')" />
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="addin-project.xml" />
+    <None Include="..\addin-project.xml">
+      <Link>addin-project.xml</Link>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Helpers\" />

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+    <Extension path = "/MonoDevelop/Ide/Commands">
+        <Command id = "XamarinOpenLayoutDefinition.XamarinOpenLayoutDefinitionCommands.OpenResource"
+             _label = "Open Resource"
+             shortcut = "Control|Alt|R"
+             macShortcut = "Meta|Alt|R"
+             _description = "Opens the resource in its editor." 
+             defaultHandler = "XamarinOpenLayoutDefinition.OpenResourceHandler"
+             />
+    </Extension>
+</ExtensionModel>

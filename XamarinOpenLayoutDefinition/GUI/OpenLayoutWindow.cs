@@ -8,11 +8,10 @@ namespace XamarinOpenLayoutDefinition.GUI
 		private global::Gtk.Label label2;
 		private global::Gtk.ScrolledWindow scrolledwindow1;
 		private global::Gtk.Label labelDescription;
-		private global::Gtk.ScrolledWindow scrolledwindow2;
 
 		protected virtual void Build ()
 		{
-			global::Stetic.Gui.Initialize (this);
+			Stetic.Gui.Initialize (this);
 			// Widget XamarinPowerTools.GUI.OpenLayoutWindow
 			this.Name = "XamarinPowerTools.GUI.OpenLayoutWindow";
 			this.Title = "Open Layout";

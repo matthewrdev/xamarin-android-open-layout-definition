@@ -9,7 +9,7 @@ using Mono.TextEditor.PopupWindow;
 
 namespace XamarinOpenLayoutDefinition.GUI
 {
-	partial class OpenLayoutWindow : Gtk.Window
+	public partial class OpenLayoutWindow : Gtk.Window
 	{
 		TreeStore optionsStore = new TreeStore (typeof(Xwt.Drawing.Image), typeof (string), typeof(string));
 

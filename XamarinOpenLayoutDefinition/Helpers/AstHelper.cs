@@ -1,11 +1,11 @@
 ﻿using System;
+using System.Linq;
 using ICSharpCode.NRefactory.CSharp;
 using ICSharpCode.NRefactory.CSharp.Resolver;
-using ICSharpCode.NRefactory.TypeSystem;
-using MonoDevelop.Ide;
 using ICSharpCode.NRefactory.CSharp.TypeSystem;
-using System.Linq;
+using ICSharpCode.NRefactory.TypeSystem;
 using ICSharpCode.NRefactory.TypeSystem.Implementation;
+using MonoDevelop.Ide;
 
 namespace XamarinOpenLayoutDefinition
 {

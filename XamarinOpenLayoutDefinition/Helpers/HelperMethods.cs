@@ -25,21 +25,10 @@
 // THE SOFTWARE.
 
 using System;
-using System.Linq;
 using System.IO;
-using System.Collections;
-using System.Collections.ObjectModel;
 using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Text;
-using MonoDevelop.Core;
-using MonoDevelop.Projects;
 using MonoDevelop.Ide.Gui;
-using MonoDevelop.Ide.Gui.Content;
-using MonoDevelop.Ide.CodeTemplates;
 using MonoDevelop.Ide.CodeCompletion;
-using MonoDevelop.Refactoring;
-using MonoDevelop.CSharp.Parser;
 using Mono.TextEditor;
 using ICSharpCode.NRefactory.CSharp;
 using ICSharpCode.NRefactory.TypeSystem;

@@ -2,7 +2,7 @@
 
 namespace XamarinOpenLayoutDefinition
 {
-	public enum XamarinOpenLayoutDefinitionCommands
+	public enum Commands
 	{
 		OpenResource,
 	}

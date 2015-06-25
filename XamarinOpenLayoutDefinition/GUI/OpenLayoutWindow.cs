@@ -11,7 +11,6 @@ namespace XamarinOpenLayoutDefinition.GUI
 
 		protected virtual void Build ()
 		{
-			Stetic.Gui.Initialize (this);
 			// Widget XamarinPowerTools.GUI.OpenLayoutWindow
 			this.Name = "XamarinPowerTools.GUI.OpenLayoutWindow";
 			this.Title = "Open Layout";

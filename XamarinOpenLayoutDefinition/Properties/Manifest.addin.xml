@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ExtensionModel>
     <Extension path = "/MonoDevelop/Ide/Commands">
-        <Command id = "XamarinOpenLayoutDefinition.XamarinOpenLayoutDefinitionCommands.OpenResource"
+        <Command id = "XamarinOpenLayoutDefinition.Commands.OpenResource"
              _label = "Open Resource"
              shortcut = "Control|Alt|R"
              macShortcut = "Meta|Alt|R"

@@ -5,7 +5,7 @@ using Mono.Addins.Description;
 [assembly:Addin (
 	"XamarinOpenLayoutDefinition", 
 	Namespace = "XamarinOpenLayoutDefinition",
-	Version = "0.0.1"
+	Version = "0.0.2"
 )]
 
 [assembly:AddinName ("Xamarin.Android Open Layout Definition")]

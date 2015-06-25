@@ -36,9 +36,9 @@
     <Compile Include="Helpers\ResourceHelper.cs" />
     <Compile Include="Helpers\AstHelper.cs" />
     <Compile Include="Open Resource\OpenResourceHandler.cs" />
-    <Compile Include="XamarinOpenLayoutDefinitionCommands.cs" />
     <Compile Include="GUI\OpenLayoutWindow.cs" />
     <Compile Include="Open Resource\GUI\OpenLayoutWindow.cs" />
+    <Compile Include="Commands.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MonoDevelop.Addins.0.2.3\build\net40\MonoDevelop.Addins.targets" Condition="Exists('..\packages\MonoDevelop.Addins.0.2.3\build\net40\MonoDevelop.Addins.targets')" />

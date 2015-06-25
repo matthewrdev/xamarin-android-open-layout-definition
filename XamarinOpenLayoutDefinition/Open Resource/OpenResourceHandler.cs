@@ -1,22 +1,13 @@
 ﻿using System;
-using Mono.TextEditor;
-using MonoDevelop.Ide.TypeSystem;
-using ICSharpCode.NRefactory.Semantics;
-using MonoDevelop.Ide;
 using ICSharpCode.NRefactory.CSharp;
-using ICSharpCode.NRefactory.CSharp.Resolver;
-using ICSharpCode.NRefactory.CSharp.TypeSystem;
-using System.Threading;
-using MonoDevelop.Core;
-using MonoDevelop.Ide.CodeCompletion;
-using MonoDevelop.Components;
-using MonoDevelop.CodeGeneration;
-using Mono.Addins;
-using MonoDevelop.Ide.Gui;
+using ICSharpCode.NRefactory.Semantics;
+using Mono.TextEditor;
 using MonoDevelop.Components.Commands;
+using MonoDevelop.Ide;
+using MonoDevelop.Ide.CodeCompletion;
+using MonoDevelop.Ide.Gui;
+using MonoDevelop.Ide.TypeSystem;
 using MonoDevelop.MonoDroid;
-
-
 
 namespace XamarinOpenLayoutDefinition
 {
@@ -63,11 +54,7 @@ namespace XamarinOpenLayoutDefinition
 							Console.WriteLine ("Failed to resolve the layout");
 						}
 					}
-
-
 				}
-
-				//info.Enabled = ResourceHelper.IsAssetsMemberField(memberResolve) || ResourceHelper.IsResourcesMemberField(memberResolve);
 			}
 		}
 

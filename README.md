@@ -3,7 +3,7 @@ Helper utility that opens the layout definition beneath the cursor.
 
 **This tool is now deprecated.**
 
-**To continue use, add http://addins.mfractor.com into the Addin Manager and install MFractor**
+**To continue use, please use MFractor https://www.mfractor.com**
 
 ![MFractor Logo](/images/logo-horizontal.png?raw=true)
 

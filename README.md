@@ -1,7 +1,7 @@
 # Xamarin.Android - Open Layout Definition
 Helper utility that opens the layout definition beneath the cursor.
 
-**This tool is now deprecated.**
+**This tool is now deprecated and has been replaced by MFractor.**
 
 **To continue use, please use MFractor https://www.mfractor.com**
 
